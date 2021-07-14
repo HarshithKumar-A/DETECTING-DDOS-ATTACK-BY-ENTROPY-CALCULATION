@@ -12,8 +12,7 @@ def sourceIPgen():
 #this function generates random IP addresses
 
 
-# these values are not valid for first octet of IP address
-
+# these values are not valid for first octet of IP addre
   not_valid = [10,127,254,255,1,2,169,172,192]
 
   first = randrange(1,256)
